@@ -1,0 +1,7 @@
+version: '2.13.0'
+services:
+  simpleubuntu:
+    container_name: mycontainer
+    build:
+      context: .
+      dockerfile: Dockerfile
